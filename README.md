@@ -1,2 +1,40 @@
-# VLAN-RouterOnStick-Lab
-built-in Cisco Packet Tracer networking lab for CCNAs. In order to limit access between VLANs, the project illustrates VLAN segmentation, router-on-a-stick inter-VLAN routing, DHCP configuration, and a simple implementation of ACL. ideal for students preparing for entry-level networking/SOC positions or CCNA exams.
+# VLAN & Router-on-a-Stick Lab (Network+ Project)
+
+# Project Overview
+This lab simulates a **small company network** with multiple departments segmented using VLANs.  
+The main objectives were:
+- Configure **VLANs** for Admin, Sales, and IT.
+- Implement **Router-on-a-Stick** for inter-VLAN routing.
+- Set up **DHCP services** on the router for dynamic IP allocation.
+- Apply a **basic ACL** to restrict Sales from accessing Admin while allowing other traffic.
+
+This project was built in **Cisco Packet Tracer** as part of my hands-on practice for the Network+ exam and job readiness in networking and SOC environments.
+
+---
+
+# Network Topology
+![Network Topology](file:///E:/OMAR/ME/Cert%20(self%20study)/CompTIA%20Network+/lab_topology.png.png)  
+*(Two switches, one router, and six PCs across three VLANs)*
+
+---
+
+# IP Addressing Plan
+
+| VLAN   | Network        | Subnet Mask     | Default Gateway | Department |
+|--------|----------------|-----------------|----------------|------------|
+| VLAN10 | 192.168.10.0   | 255.255.255.0   | 192.168.10.1   | Admin      |
+| VLAN20 | 192.168.20.0   | 255.255.255.0   | 192.168.20.1   | Sales      |
+| VLAN30 | 192.168.30.0   | 255.255.255.0   | 192.168.30.1   | IT         |
+
+---
+
+# Key Configurations
+
+# VLANs on Switch
+
+Switch(config)# vlan 10
+Switch(config-vlan)# name Admin
+Switch(config)# vlan 20
+Switch(config-vlan)# name Sales
+Switch(config)# vlan 30
+Switch(config-vlan)# name IT
