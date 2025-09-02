@@ -13,7 +13,8 @@ This project was built in **Cisco Packet Tracer** as part of my hands-on practic
 ---
 
 # Network Topology
-![file:///E:/OMAR/ME/Cert%20(self%20study)/CompTIA%20Network+/lab_topology.png.png](file:///E:/OMAR/ME/Cert%20(self%20study)/CompTIA%20Network+/lab_topology.png.png)  
+![Network Topology](<img width="1900" height="765" alt="image" src="https://github.com/user-attachments/assets/44e63845-ff6f-4774-be1b-8c53cdf5a671" />
+)  
 *(Two switches, one router, and six PCs across three VLANs)*
 
 ---
