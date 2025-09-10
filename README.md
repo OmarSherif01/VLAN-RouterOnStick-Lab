@@ -13,7 +13,7 @@ This project was built in **Cisco Packet Tracer** as part of my hands-on practic
 ---
 
 ## 🖼️ Network Topology
-![Network Topology]([Network_topology.png](https://github.com/OmarSherif01/VLAN-RouterOnStick-Lab/blob/main/Network_Topology.png?raw=true)
+![Network Topology](https://github.com/OmarSherif01/VLAN-RouterOnStick-Lab/blob/main/Network_Topology.png?raw=true)
 *(Two switches, one router, and six PCs across three VLANs)*
 
 ---
